@@ -7,16 +7,16 @@ package tasks.task_11102024;
 //performPUT()
 //performDELETE()
 
-public class BaseTest {
+public class BaseTestAPI {
     private String name;
     private int id;
 
-    public BaseTest()
+    public BaseTestAPI()
     {
         System.out.println("Base class DC");
     }
 
-    public BaseTest(String name, int id) {
+    public BaseTestAPI(String name, int id) {
         this.name = name;
         this.id = id;
     }
